@@ -19,7 +19,7 @@ def load_data(file_path):
 
 # Assuming 'data' is your dataframe containing independent variables and 'MntWines'
 # is your target variable
-file_path = "D:\\DS - Projects\\Final project\\No - 2\\Marketing data.csv"
+file_path = "ENTER THE FILE PATH"
 data = load_data(file_path)
 
 X = data.drop('MntWines', axis=1)
